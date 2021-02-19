@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    // border: 1px solid;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 2%;
+
+    .instagram-phone {
+        img {
+            width: 330px;
+        }
+    }
+
+    .instagram-continue {
+        display: flex;
+        flex-direction: column;
+        // border: 1px solid red;
+        width: 350px;
+        height: 500px;
+
+        .card1 {
+            display: flex;
+            flex-direction: column;
+            height: 350px;
+            align-items: center;
+            border: 1px solid #dbdbdb;
+            justify-content: center;
+            .logo {
+                img {
+                    width: 175px;
+                }
+            }
+            .entradas {
+                display: flex;
+                flex-direction: column;
+
+                input {
+                    width: 300px;
+                    padding: 9px 0 7px 8px;
+                    margin-top: 10px;
+                    // background-color: #fafafa;
+                    outline: 0;
+                    text-overflow: ellipsis;
+                    //    border-radius: 5px;
+                    flex: 1 auto;
+                    box-shadow: 0 0 0 0;
+
+                    &:nth-child(3) {
+                        margin-top: 15px;
+                    }
+                }
+                .btn-entrar{
+                    background-color: #0095f6;
+                    color: white;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    font-weight: bold;
+                }
+            }
+
+            .content-bottom {
+                display: flex;
+                margin-top: 10px;
+                width: 300px;
+                justify-content: space-between;
+                align-items: center;
+                .line {
+                    background-color: #dbdbdb;
+                    flex-grow: 1;
+                    flex-shrink: 1;
+                    position: relative;
+                    height: 1px;
+                    width: 40%;
+                }
+                .ou {
+                    flex-shrink: 0;
+                    font-size: 13px;
+                    font-weight: 600;
+                    line-height: 15px;
+                    margin: 0 18px;
+                    text-transform: uppercase;
+                    color: #8e8e8e  ;
+                }
+            }
+            .element{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+             //   border: 1px solid;
+                margin-top: 25px;
+
+               .face{
+                   color: #385185;
+                   letter-spacing: 1px;
+               }
+               a{
+                   text-decoration: none;
+               }
+                span{
+                    padding-top: 5px;
+                    
+                }
+            }
+        }
+        .card2 {
+            border: 1px solid #dbdbdb;
+            padding: 6%;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .get-app{
+            text-align: center;
+            margin-top: 10px;
+
+            .img-app{
+                display: flex;
+                justify-content: center;
+               // align-items: center;
+               margin: 10px;
+
+                img{
+                    width: 100px;
+                    margin: 4px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and(max-width:875px){
+    .instagram-phone{
+        overflow: hidden;
+        display: none;
+    }
+}

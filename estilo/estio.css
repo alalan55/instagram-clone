@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2%;
+}
+
+.container .instagram-phone img {
+  width: 330px;
+}
+
+.container .instagram-continue {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 350px;
+  height: 500px;
+}
+
+.container .instagram-continue .card1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 350px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #dbdbdb;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .instagram-continue .card1 .logo img {
+  width: 175px;
+}
+
+.container .instagram-continue .card1 .entradas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .instagram-continue .card1 .entradas input {
+  width: 300px;
+  padding: 9px 0 7px 8px;
+  margin-top: 10px;
+  outline: 0;
+  text-overflow: ellipsis;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 auto;
+          flex: 1 auto;
+  -webkit-box-shadow: 0 0 0 0;
+          box-shadow: 0 0 0 0;
+}
+
+.container .instagram-continue .card1 .entradas input:nth-child(3) {
+  margin-top: 15px;
+}
+
+.container .instagram-continue .card1 .entradas .btn-entrar {
+  background-color: #0095f6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.container .instagram-continue .card1 .content-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  width: 300px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .instagram-continue .card1 .content-bottom .line {
+  background-color: #dbdbdb;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  position: relative;
+  height: 1px;
+  width: 40%;
+}
+
+.container .instagram-continue .card1 .content-bottom .ou {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 15px;
+  margin: 0 18px;
+  text-transform: uppercase;
+  color: #8e8e8e;
+}
+
+.container .instagram-continue .card1 .element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.container .instagram-continue .card1 .element .face {
+  color: #385185;
+  letter-spacing: 1px;
+}
+
+.container .instagram-continue .card1 .element a {
+  text-decoration: none;
+}
+
+.container .instagram-continue .card1 .element span {
+  padding-top: 5px;
+}
+
+.container .instagram-continue .card2 {
+  border: 1px solid #dbdbdb;
+  padding: 6%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.container .instagram-continue .get-app {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.container .instagram-continue .get-app .img-app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px;
+}
+
+.container .instagram-continue .get-app .img-app img {
+  width: 100px;
+  margin: 4px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 875px) {
+  .instagram-phone {
+    overflow: hidden;
+    display: none;
+  }
+}
+/*# sourceMappingURL=estio.css.map */
